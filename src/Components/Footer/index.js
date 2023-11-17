@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-100 py-8">
-      <div className="container mx-auto px-4 md:px-0 grid grid-cols-1 gap-4 md:grid-cols-5">
+      <div className="container mx-auto px-4 md:px-5 grid grid-cols-1 gap-4 md:grid-cols-5">
         {/* Contact */}
         <section className="col-span-1 md:col-span-2">
           <h3 className="text-xs md:text-xl font-semibold">Contact</h3>

@@ -1,6 +1,7 @@
 import "./App.css";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
+import Collection from "./Components/Offer_section";
 
 function App() {
   return (
@@ -9,6 +10,11 @@ function App() {
       <header>
         <Navbar />
       </header>
+      <section>
+        <article>
+         <Collection/> 
+        </article>
+      </section>
       <footer>
         <Footer/>
       </footer>
