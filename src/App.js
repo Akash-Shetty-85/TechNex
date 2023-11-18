@@ -1,5 +1,6 @@
 import "./App.css";
 import Footer from "./Components/Footer";
+import Hero from "./Components/Hero_section";
 import Navbar from "./Components/Navbar";
 import Collection from "./Components/Offer_section";
 
@@ -11,6 +12,9 @@ function App() {
         <Navbar />
       </header>
       <section>
+        <article>
+          <Hero/>
+        </article>
         <article>
          <Collection/> 
         </article>
