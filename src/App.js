@@ -1,5 +1,5 @@
 import "./App.css";
-import Featurs from "./Components/Features";
+
 import Footer from "./Components/Footer";
 import Hero from "./Components/Hero_section";
 import Methods from "./Components/Methods";
@@ -26,9 +26,7 @@ function App() {
         <article>
           <PopularItmes />
         </article>
-        <article>
-          <Featurs />
-        </article>
+        {/*  */}
         <article>
           <Methods />
         </article>
