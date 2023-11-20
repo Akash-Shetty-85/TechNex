@@ -1,8 +1,12 @@
 import "./App.css";
+import Featurs from "./Components/Features";
 import Footer from "./Components/Footer";
 import Hero from "./Components/Hero_section";
+import Methods from "./Components/Methods";
 import Navbar from "./Components/Navbar";
 import Collection from "./Components/Offer_section";
+import PopularItmes from "./Components/Popular_items";
+import WorkSection from "./Components/WorkSection";
 
 function App() {
   return (
@@ -13,14 +17,27 @@ function App() {
       </header>
       <section>
         <article>
-          <Hero/>
+          <Hero />
+        </article>
+        
+        <article>
+          <WorkSection />
         </article>
         <article>
-         <Collection/> 
+          <PopularItmes />
+        </article>
+        <article>
+          <Featurs />
+        </article>
+        <article>
+          <Methods />
+        </article>
+        <article>
+          <Collection />
         </article>
       </section>
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </>
   );
